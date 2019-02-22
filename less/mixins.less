@@ -1,1 +1,21 @@
 // Mixins in here
+@media: ~"(max-width: 515px)";
+
+
+.custom-button(@bg-color:#008080, @font-color:white) {
+    background-color: @bg-color;
+    color: @font-color;
+    // margin: 10px 30px 20px;
+    cursor: pointer;
+    padding: 10px 5%;
+    // width: @width;
+    font-size: 2rem;
+    border-radius: 10px;
+    text-align: center;
+  
+    &:hover {
+      background-color: @font-color;
+      color: @bg-color;
+    } 
+}
+
