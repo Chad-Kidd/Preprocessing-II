@@ -1,3 +1,27 @@
-.top {
-  border-bottom: black dashed;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+  border-bottom: 2px dashed #C0C0C0;
+  padding: 20px;
+}
+.navigation {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: #212529;
+  margin: 9px;
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+h2 {
+  text-align: center;
+  padding-top: 10px;
 }
